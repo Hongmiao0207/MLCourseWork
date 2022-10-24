@@ -7,7 +7,7 @@ from sklearn.model_selection import cross_val_predict
 import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error, r2_score
 
-dataset = pd.read_csv('../../Resource/SeoulBikeData.csv', encoding="ISO-8859-1")
+dataset = pd.read_csv('../../../../Resource/SeoulBikeData.csv', encoding="ISO-8859-1")
 print(dataset.shape)
 
 # 处理字符

@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 # =============1.数据处理部分 ===========
-dataset = pd.read_csv('../../Resource/SeoulBikeData.csv', encoding="ISO-8859-1")
+dataset = pd.read_csv('../../../Resource/SeoulBikeData.csv', encoding="ISO-8859-1")
 print(dataset.shape)
 
 # 处理字符

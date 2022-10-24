@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import accuracy_score
 
-dataset = pd.read_csv('../../Resource/tae.data', header=None)
+dataset = pd.read_csv('../../../../Resource/tae.data', header=None)
 
 X = dataset.iloc[:, : -1].values
 y = dataset.iloc[:, -1].values

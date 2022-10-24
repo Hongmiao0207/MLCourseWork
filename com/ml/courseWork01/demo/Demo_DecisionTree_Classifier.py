@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 import graphviz
 
 # 读取数据
-dataset = pd.read_csv('../../Resource/tae.data', header=None)
+dataset = pd.read_csv('../../../../Resource/tae.data', header=None)
 
 X = dataset.iloc[:, : -1].values
 y = dataset.iloc[:, -1].values

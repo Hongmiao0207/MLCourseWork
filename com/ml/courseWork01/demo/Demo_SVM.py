@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from sklearn.metrics import classification_report
 
 # datasetColumn = pd.read_csv('../../Resource/tae.names')
-dataset = pd.read_csv('../../Resource/tae.data', header=None)
+dataset = pd.read_csv('../../../../Resource/tae.data', header=None)
 
 X = dataset.iloc[:, : -1].values
 y = dataset.iloc[:, -1].values
